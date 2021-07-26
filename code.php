@@ -1,6 +1,6 @@
 global $wpdb;
 $post_ids = $wpdb->get_results ("SELECT id FROM  $wpdb->posts WHERE post_type = 'post'");
-// For type, 4 is all time, 3 is for year, 2 is for month, I'm unsure about 1, and 0 is for day
+// For type, 4 is all time views, 3 is for year, 2 is for month, 1 is weekly, and 0 is for day
 $result = $wpdb->get_results( "SELECT * FROM {$wpdb->prefix}post_views WHERE type=4");
 
 $new_post_metas = array();
