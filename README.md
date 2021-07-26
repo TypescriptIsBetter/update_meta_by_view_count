@@ -1,6 +1,6 @@
 # update_meta_by_view_count
 
-Look at the associated images if necessary. The script is in code.php
+Look at the associated images if necessary. The script is in code.php, and you may wish to modify parts of it.
 
 ## Step 1
 
